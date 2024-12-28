@@ -65,6 +65,10 @@ To integrate the **P4-Adder** into your project, follow these steps:
    - `NBIT_PER_BLOCK`: Set the block size for the sparse tree carry generator.
 
 4. Simulate and test the design to verify its performance in your application.
+   ```bash
+   cd sim/
+   do simulation.tcl
+   ```
 
 ## License
 This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
